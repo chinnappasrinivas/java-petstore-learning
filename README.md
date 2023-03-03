@@ -6,3 +6,5 @@ This is a demo of using API Discovery with a Java Spring Boot v2 project. The CI
 - Run API Discovery against the build output (an executable jar)
 - Publish the project to the GitLab container registry
 - Run DAST API against the running service to test for security issues
+
+Note: This example is a generated server stub. Because of this, we don't expect DAST API to find any security issues. We also expect error status codes during testing.
