@@ -10,7 +10,6 @@ include:
   - template: Security/DAST-API.gitlab-ci.yml
 
 variables:
-    #
     # Docker-in-docker settings
     DOCKER_HOST: tcp://docker:2375
     DOCKER_TLS_CERTDIR: ""
@@ -57,6 +56,5 @@ dast_api:
     - name: $CI_REGISTRY_IMAGE/java-spring-boot-petstore:$CI_COMMIT_SHORT_SHA
       alias: target
   variables:
-    DAST_API_PROFILE: Passive
     DAST_API_TARGET_URL: http://target:8080
     DAST_API_OPENAPI: gl-api-discovery-openapi.json
