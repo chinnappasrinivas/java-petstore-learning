@@ -2,14 +2,26 @@ image: maven:3.9-eclipse-temurin-17
 
 stages:
   - build
-  - unit_test
+  - test
 
 build:
   stage: build
   script:
     - mvn clean package -DskipTests
+  artifacts:
+    paths:
+      - target/*.jar
+    expire_in: 1 week
 
-unit_test:
-  stage: unit_test
+test:
+  stage: test
   script:
     - mvn test
+  artifacts:
+    when: always
+    paths:
+      - target/surefire-reports/
+    reports:
+      junit:
+        - target/surefire-reports/junitreports/*.xml
+    expire_in: 1 week
