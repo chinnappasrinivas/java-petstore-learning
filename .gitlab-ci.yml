@@ -4,6 +4,7 @@ stages:
   - build
   - unit_test
   - integration_test
+  - docker_build
 
 build:
   stage: build
@@ -39,3 +40,11 @@ integration_test:
       junit:
         - target/surefire-reports/junitreports/*.xml
     expire_in: 1 week
+
+docker_build:
+  stage: docker_build
+  image: docker:29
+  services:
+    - docker:29-dind
+  script:
+    - docker build -t petstore-app:$CI_COMMIT_SHORT_SHA .
