@@ -2,7 +2,8 @@ image: maven:3.9-eclipse-temurin-17
 
 stages:
   - build
-  - test
+  - unit_test
+  - integration_test
 
 build:
   stage: build
@@ -13,10 +14,23 @@ build:
       - target/*.jar
     expire_in: 1 week
 
-test:
-  stage: test
+unit_test:
+  stage: unit_test
   script:
-    - mvn test
+    - mvn test -Dtest=org.openapitools.testng.CalculatorTest
+  artifacts:
+    when: always
+    paths:
+      - target/surefire-reports/
+    reports:
+      junit:
+        - target/surefire-reports/junitreports/*.xml
+    expire_in: 1 week
+
+integration_test:
+  stage: integration_test
+  script:
+    - mvn test -Dtest=TestSuite
   artifacts:
     when: always
     paths:
