@@ -1,9 +1,19 @@
 image: maven:3.9-eclipse-temurin-17
 
 stages:
-  - test
+  - build
+  - unit_test
 
-test:
-  stage: test
+build:
+  stage: build
   script:
-    - mvn clean test
+    - mvn clean package -DskipTests
+  artifacts:
+    paths:
+      - target/*.jar
+    expire_in: 1 hour
+
+unit_test:
+  stage: unit_test
+  script:
+    - mvn test
