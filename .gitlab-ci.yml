@@ -30,7 +30,7 @@ unit_test:
 integration_test:
   stage: integration_test
   script:
-    - mvn test -Dtest=TestSuite
+    - mvn test -Dtest=org.openapitools.integration.PetstoreIntegrationTest
   artifacts:
     when: always
     paths:
