@@ -1,0 +1,86 @@
+1. How do you approach Agile coaching in a product-driven organization?
+
+Answer:
+“I start by aligning Agile practices with business outcomes rather than enforcing frameworks. In product-driven environments, success is measured by user value, speed, and adaptability.
+
+In my recent role, I worked closely with Product Owners to ensure backlog prioritization reflected business goals. I assessed team maturity, identified bottlenecks, and tailored coaching at three levels—team, program, and leadership.
+
+For example, by improving backlog clarity and strengthening sprint goals, we achieved better alignment between delivery and business expectations while maintaining a steady delivery flow.
+
+
+2. How have you improved delivery predictability in your teams?
+
+Answer:
+“In one of my programs, we faced frequent sprint spillovers due to unmanaged cross-team dependencies.
+
+I introduced structured Scrum-of-Scrums, improved dependency tracking in Jira, and ensured alignment during PI Planning. I also coached teams on realistic sprint commitments based on historical velocity.
+
+As a result, we saw a significant improvement in sprint predictability, reduced carryover work, and more stable delivery patterns across teams.”
+
+
+3. How do you handle resistance to Agile practices?
+
+Answer:
+“I see resistance as a signal, not a problem. My approach is to understand the root cause—whether it’s lack of clarity, previous bad experiences, or perceived overhead.
+
+For example, when stakeholders felt ceremonies were too time-consuming, I streamlined them to focus on outcomes rather than rituals. Once they saw faster decision-making and better visibility, adoption improved naturally.
+
+I focus on demonstrating value rather than enforcing change.”
+
+
+4. Can you describe your experience with scaling Agile?
+
+Answer:
+“I have extensive experience working in SAFe environments with Agile Release Trains.
+
+I supported Release Train Engineers in planning and executing PI Planning, System Demos, and Inspect & Adapt sessions. I also facilitated Scrum-of-Scrums to manage dependencies across distributed teams.
+
+My key contribution was ensuring alignment between teams and program-level goals, which helped improve coordination, reduce bottlenecks, and maintain a continuous delivery flow.
+
+
+5. How do you measure team performance without relying on vanity metrics?
+
+Answer:
+“I focus on meaningful metrics that reflect value delivery and flow.
+
+These include predictability, cycle time, throughput, and quality indicators such as defect leakage and adherence to Definition of Done. I also consider team health and collaboration.
+
+Using Jira dashboards, I ensured transparency and used metrics as a tool for improvement—not evaluation—helping teams continuously refine their processes.”
+
+6. How do you collaborate with Product Owners and Product Managers?
+
+Answer:
+“I work closely with Product Owners to ensure the backlog is both valuable and actionable.
+
+I coach them on writing clear user stories, prioritizing based on business value, and maintaining a well-refined backlog. I also facilitate discussions between business and technical teams to ensure shared understanding.
+
+This collaboration helps teams deliver the right features at the right time while minimizing rework.
+
+
+7. Tell me about a challenging cross-team dependency you resolved.
+
+Answer:
+“In a distributed setup, multiple teams were dependent on a shared component, causing frequent delays.
+
+I introduced visibility through dependency boards and facilitated alignment sessions during Scrum-of-Scrums. I also worked with Product Owners to prioritize dependency-related work earlier in the sprint.
+
+This proactive approach reduced blockers significantly and improved coordination across teams.”
+
+8. How do you improve Agile maturity within teams?
+
+Answer:
+“I follow a structured approach—assess, coach, enable, and step back.
+
+I start by evaluating current practices and identifying gaps. Then I introduce targeted improvements, such as better retrospectives or clearer sprint goals. I also mentor Scrum Masters and encourage teams to take ownership.
+
+Over time, teams become more self-organizing, and my role shifts from directing to supporting.”
+
+
+9. What would be your plan for the first 90 days in this role?
+
+Answer:
+“In the first 30 days, I would focus on understanding the organization—teams, products, workflows, and challenges.
+
+From 30 to 60 days, I would work on stabilizing delivery by improving ceremonies, addressing bottlenecks, and enhancing transparency.
+
+From 60 to 90 days, I would introduce measurable improvements, such as optimizing flow, reducing dependencies, and aligning delivery more closely with business outcomes.”
